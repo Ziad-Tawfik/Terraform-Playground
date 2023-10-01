@@ -5,7 +5,11 @@ resource "aws_instance" "my-bastion-ec2" {
   vpc_security_group_ids = [aws_security_group.my-sg-ssh.id]
   associate_public_ip_address = true
   subnet_id = aws_subnet.pub1.id
-
+  user_data = <<-EOF
+              #!/bin/bash
+              echo '${tls_private_key.rsa.private_key_pem}' > /home/ec2-user/tf.pem
+              chmod 0400 /home/ec2-user/tf.pem
+              EOF
 tags = {
     Name = "tf-bastion-ec2"
   }
