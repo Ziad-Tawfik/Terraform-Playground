@@ -1,4 +1,6 @@
 # Lab2 Screenshots
+
+## Apply Terraform in Dev Workspace
 ![](Images/1.png)
 ![](Images/2.png)
 ![](Images/3.png)
@@ -29,6 +31,8 @@
 ![](Images/27.png)
 ![](Images/28.png)
 ![](Images/29.png)
+
+## Apply Terraform in Prod Workspace
 ![](Images/30.png)
 ![](Images/31.png)
 ![](Images/32.png)
@@ -50,15 +54,24 @@
 ![](Images/49.png)
 ![](Images/50.png)
 ![](Images/51.png)
-![](Images/53.png)
+
+## Create Docker file with Jenkins and Terraform
+![](Images/89.png)
 ![](Images/52.png)
+
+## Run Docker container and configure Jenkins
 ![](Images/54.png)
 ![](Images/55.png)
+
+## SES Service and Lambda
 ![](Images/56.png)
 ![](Images/58.png)
 ![](Images/59.png)
 ![](Images/60.png)
 ![](Images/61.png)
+
+## Jenkins Pipeline
+![](Images/88.png)
 ![](Images/62.png)
 ![](Images/63.png)
 ![](Images/64.png)
@@ -80,4 +93,8 @@
 ![](Images/80.png)
 ![](Images/81.png)
 ![](Images/82.png)
+![](Images/84.png)
+![](Images/85.png)
+![](Images/86.png)
+![](Images/87.png)
 ![](Images/83.png)
